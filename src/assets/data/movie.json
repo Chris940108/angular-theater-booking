@@ -1,0 +1,56 @@
+{
+    "action": {
+        "title": "Lord of the rings",
+        "description": "In the mystical land of Middle-earth, The Lord of the Rings series unfolds an epic quest to destroy an ancient ring of immense power. Heroes of all kinds emerge, ranging from humble hobbits to mighty wizards, united in their stand against the dark lord Saurons oppressive tyranny. Their journey takes them through treacherous paths and leads to epic battles, as the Fellowship faces trials that test not only their courage but the strength of their friendship.",
+        "movies": [
+            {
+                "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX200.jpg",
+                "title": "Fellowship of the Rings",
+                "description": "Length Time: 2h 58m",
+                "genre": "Action",
+                "rating": "92% by Rotten Tomatoes"
+            },
+            {
+                "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX200.jpg",
+                "title": "The two towers",
+                "description": "Length Time: 2h 59m",
+                "genre": "Action",
+                "rating": "95% by Rotten Tomatoes"
+            },
+            {
+                "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX200.jpg",
+                "title": "Return of the kings",
+                "description": "Length Time: 3h 21m",
+                "genre": "Action",
+                "rating": "94% by Rotten Tomatoes"
+            }
+        ]
+    },
+    "thriller": {
+        "title": "Matrix",
+        "description": "The Matrix movie series is a groundbreaking science fiction saga. It centers around a dystopian future where humanity is unknowingly trapped inside a simulated reality, the Matrix, created by intelligent machines. The protagonist, Neo, discovers the truth and joins a rebellion against the machines, exploring themes of reality, freedom, and human potential",
+        "movies": [
+            {
+                "title": "The Matrix",
+                "description": "Length Time: 2h 16m",
+                "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+                "genre": "Thriller",
+                "rating": "83% by Rotten Tomatoes"
+            },
+            {
+                "title": "The Matrix Reloaded",
+                "description": "Length Time: 2h 18m",
+                "posterUrl": "https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+                "genre": "Thriller",
+                "rating": "74% by Rotten Tomatoes"
+            },
+            {
+                "title": "The Matrix Revolutions",
+                "description": "Length Time: 2h 9m",
+                "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+                "genre": "Thriller",
+                "rating": "33% by Rotten Tomatoes"
+            }
+        ]
+    }
+}

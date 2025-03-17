@@ -1,0 +1,342 @@
+{
+    "movieSchedule":{
+        "movies": [
+            {
+                "title": "Fellowship of the Rings",
+                "theaters": [
+                    {
+                        "name": "Downtown Cinema",
+                        "showTimes": [
+                            {
+                                "time": "10:00 AM",
+                                "seatsAvailable": 50
+                            },
+                            {
+                                "time": "2:00 PM",
+                                "seatsAvailable": 45
+                            },
+                            {
+                                "time": "6:00 PM",
+                                "seatsAvailable": 40
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grand Cineplex",
+                        "showTimes": [
+                            {
+                                "time": "9:30 AM",
+                                "seatsAvailable": 65
+                            },
+                            {
+                                "time": "1:30 PM",
+                                "seatsAvailable": 60
+                            },
+                            {
+                                "time": "5:30 PM",
+                                "seatsAvailable": 55
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunset Boulevard Cinemas",
+                        "showTimes": [
+                            {
+                                "time": "10:00 AM",
+                                "seatsAvailable": 70
+                            },
+                            {
+                                "time": "2:00 PM",
+                                "seatsAvailable": 65
+                            },
+                            {
+                                "time": "6:00 PM",
+                                "seatsAvailable": 60
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "The two towers",
+                "theaters": [
+                    {
+                        "name": "Downtown Cinema",
+                        "showTimes": [
+                            {
+                                "time": "11:00 AM",
+                                "seatsAvailable": 48
+                            },
+                            {
+                                "time": "3:00 PM",
+                                "seatsAvailable": 42
+                            },
+                            {
+                                "time": "7:00 PM",
+                                "seatsAvailable": 38
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grand Cineplex",
+                        "showTimes": [
+                            {
+                                "time": "10:00 AM",
+                                "seatsAvailable": 62
+                            },
+                            {
+                                "time": "2:00 PM",
+                                "seatsAvailable": 57
+                            },
+                            {
+                                "time": "6:00 PM",
+                                "seatsAvailable": 52
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunset Boulevard Cinemas",
+                        "showTimes": [
+                            {
+                                "time": "11:00 AM",
+                                "seatsAvailable": 68
+                            },
+                            {
+                                "time": "3:00 PM",
+                                "seatsAvailable": 63
+                            },
+                            {
+                                "time": "7:00 PM",
+                                "seatsAvailable": 58
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Return of the kings",
+                "theaters": [
+                    {
+                        "name": "Downtown Cinema",
+                        "showTimes": [
+                            {
+                                "time": "12:00 PM",
+                                "seatsAvailable": 47
+                            },
+                            {
+                                "time": "4:00 PM",
+                                "seatsAvailable": 41
+                            },
+                            {
+                                "time": "8:00 PM",
+                                "seatsAvailable": 35
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grand Cineplex",
+                        "showTimes": [
+                            {
+                                "time": "11:30 AM",
+                                "seatsAvailable": 60
+                            },
+                            {
+                                "time": "3:30 PM",
+                                "seatsAvailable": 55
+                            },
+                            {
+                                "time": "7:30 PM",
+                                "seatsAvailable": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunset Boulevard Cinemas",
+                        "showTimes": [
+                            {
+                                "time": "12:00 PM",
+                                "seatsAvailable": 66
+                            },
+                            {
+                                "time": "4:00 PM",
+                                "seatsAvailable": 61
+                            },
+                            {
+                                "time": "8:00 PM",
+                                "seatsAvailable": 56
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "The Matrix",
+                "theaters": [
+                    {
+                        "name": "Downtown Cinema",
+                        "showTimes": [
+                            {
+                                "time": "9:00 AM",
+                                "seatsAvailable": 60
+                            },
+                            {
+                                "time": "1:00 PM",
+                                "seatsAvailable": 55
+                            },
+                            {
+                                "time": "5:00 PM",
+                                "seatsAvailable": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grand Cineplex",
+                        "showTimes": [
+                            {
+                                "time": "9:00 AM",
+                                "seatsAvailable": 64
+                            },
+                            {
+                                "time": "1:00 PM",
+                                "seatsAvailable": 59
+                            },
+                            {
+                                "time": "5:00 PM",
+                                "seatsAvailable": 54
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunset Boulevard Cinemas",
+                        "showTimes": [
+                            {
+                                "time": "9:00 AM",
+                                "seatsAvailable": 72
+                            },
+                            {
+                                "time": "1:00 PM",
+                                "seatsAvailable": 67
+                            },
+                            {
+                                "time": "5:00 PM",
+                                "seatsAvailable": 62
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "The Matrix Reloaded",
+                "theaters": [
+                    {
+                        "name": "Downtown Cinema",
+                        "showTimes": [
+                            {
+                                "time": "10:30 AM",
+                                "seatsAvailable": 58
+                            },
+                            {
+                                "time": "2:30 PM",
+                                "seatsAvailable": 52
+                            },
+                            {
+                                "time": "6:30 PM",
+                                "seatsAvailable": 47
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grand Cineplex",
+                        "showTimes": [
+                            {
+                                "time": "10:30 AM",
+                                "seatsAvailable": 63
+                            },
+                            {
+                                "time": "2:30 PM",
+                                "seatsAvailable": 58
+                            },
+                            {
+                                "time": "6:30 PM",
+                                "seatsAvailable": 53
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunset Boulevard Cinemas",
+                        "showTimes": [
+                            {
+                                "time": "10:30 AM",
+                                "seatsAvailable": 71
+                            },
+                            {
+                                "time": "2:30 PM",
+                                "seatsAvailable": 66
+                            },
+                            {
+                                "time": "6:30 PM",
+                                "seatsAvailable": 61
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "The Matrix Revolutions",
+                "theaters": [
+                    {
+                        "name": "Downtown Cinema",
+                        "showTimes": [
+                            {
+                                "time": "11:00 AM",
+                                "seatsAvailable": 59
+                            },
+                            {
+                                "time": "3:00 PM",
+                                "seatsAvailable": 54
+                            },
+                            {
+                                "time": "7:00 PM",
+                                "seatsAvailable": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grand Cineplex",
+                        "showTimes": [
+                            {
+                                "time": "11:00 AM",
+                                "seatsAvailable": 61
+                            },
+                            {
+                                "time": "3:00 PM",
+                                "seatsAvailable": 56
+                            },
+                            {
+                                "time": "7:00 PM",
+                                "seatsAvailable": 51
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sunset Boulevard Cinemas",
+                        "showTimes": [
+                            {
+                                "time": "11:00 AM",
+                                "seatsAvailable": 69
+                            },
+                            {
+                                "time": "3:00 PM",
+                                "seatsAvailable": 64
+                            },
+                            {
+                                "time": "7:00 PM",
+                                "seatsAvailable": 59
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

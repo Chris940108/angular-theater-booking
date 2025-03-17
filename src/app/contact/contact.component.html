@@ -1,0 +1,75 @@
+<div class="container">
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+    <hr />
+    <button mat-raised-button color="primary" type="submit" [disabled]="!f.valid">
+      Submit
+    </button>
+    <hr />
+    <fieldset>
+      <legend><strong>Personal Information</strong></legend>
+      <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input
+          matInput
+          id="firstName"
+          required
+          ngModel
+          name="firstName"
+          #firstName="ngModel"
+        />
+        <mat-error *ngIf="!firstName.valid && firstName.touched">
+          This field is required
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input
+          matInput
+          id="lastName"
+          ngModel
+          required
+          name="lastName"
+          #lastName="ngModel"
+        />
+        <mat-error *ngIf="!lastName.valid && lastName.touched">
+          This field is required
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Email Address</mat-label>
+        <input
+          type="email"
+          matInput
+          id="email"
+          ngModel
+          required
+          name="email"
+          #email="ngModel"
+        />
+        <mat-error *ngIf="email.hasError('required') && email.touched">
+            This field is required
+          </mat-error>
+          <mat-error *ngIf="email.hasError('email') && email.touched">
+            Please enter a valid email address
+          </mat-error>
+      </mat-form-field>
+    </fieldset>
+    <fieldset>
+      <legend><strong>Message:</strong></legend>
+      <mat-form-field appearance="fill" class="message-box">
+        <mat-label>Message</mat-label>
+        <textarea
+          matInput
+          id="message"
+          required
+          ngModel
+          name="message"
+          #message="ngModel"
+        ></textarea>
+        <mat-error *ngIf="!message.valid && message.touched">
+          This field is required
+        </mat-error>
+      </mat-form-field>
+    </fieldset>
+  </form>
+</div>

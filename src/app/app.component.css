@@ -1,0 +1,38 @@
+/* 
+
+.sidenav-container {
+    height: 100%;
+    background-color: rgba(22, 22, 22, 0.733);
+    color: #ffffff;
+  }
+  
+  .sidenav {
+    width: 200px;
+    background-color: rgba(22, 22, 22, 0.733);
+    
+  }
+  
+  .sidenav .mat-toolbar{
+    background: inherit;
+    
+  }
+
+  .title{
+    background-color: black;
+    color: white;
+  }
+  
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .movies{
+    color: white;
+  }
+
+  .list a[mat-list-item] {
+    color: white;
+  }
+
+   */

@@ -1,0 +1,56 @@
+<h1 class="title">Movies</h1>
+<div class="description">
+    <p>Select the movie you want to watch to see available theaters and showtimes </p>
+</div>
+<hr>
+<h1>{{actionInfo.title}}</h1>
+<div class="description">
+    <p>{{actionInfo.description}}</p>
+</div>
+<div class="cards">
+    @for (movie of actionInfo.movies; track movie.title){
+    <div class="card">
+        <mat-card appearance="outlined"> 
+            <a routerLink="/booking" (click)="bookingForm(movie.title)">
+                <mat-card-header>
+                    <mat-card-title>{{movie.title}}</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src={{movie.posterUrl}} alt={{movie.title}}>
+                <mat-card-content>
+                    <p>
+                        {{movie.description}} <br>
+                        Genre: {{movie.genre}} <br>
+                        Rating: {{movie.rating}}
+                    </p>
+                </mat-card-content>
+            </a>
+        </mat-card>
+    </div>
+    }
+</div>
+<hr>
+<h1>{{thrillerInfo.title}}</h1>
+<div class="description">
+    <p>{{thrillerInfo.description}}</p>
+</div>
+<div class="cards">
+    @for (movie of thrillerInfo.movies; track movie.title){
+    <div class="card">
+        <mat-card appearance="outlined"> 
+            <a routerLink="/booking" (click)="bookingForm(movie.title)">
+                <mat-card-header>
+                    <mat-card-title>{{movie.title}}</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src={{movie.posterUrl}} alt={{movie.title}}>
+                <mat-card-content>
+                    <p>
+                        {{movie.description}} <br>
+                        Genre: {{movie.genre}} <br>
+                        Rating: {{movie.rating}}
+                    </p>
+                </mat-card-content>
+            </a>
+        </mat-card>
+    </div>
+    }
+</div>

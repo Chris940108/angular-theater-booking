@@ -1,0 +1,100 @@
+.title{
+  margin-top: 100px;
+}
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Encabezado */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Fieldset */
+  fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Mat-form-field */
+  mat-form-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  mat-form-field.mat-form-field-appearance-fill {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Etiquetas y opciones */
+  mat-label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  mat-option {
+    font-size: 0.9rem;
+  }
+  
+  /* Botones */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Espaciado entre elementos */
+  .mat-form-field + .mat-form-field {
+    margin-top: 15px;
+  }
+  
+  /* Disposición en columnas */
+  fieldset > mat-form-field {
+    flex: 1;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  fieldset span {
+    display: block;
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: -10px;
+  }
+  

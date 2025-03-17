@@ -1,0 +1,73 @@
+<h2 class="title" mat-dialog-title>You are buying a ticket for the movie: {{data.title}}</h2>
+<form [formGroup]="ticketForm" (ngSubmit)="onSubmit()">
+    <fieldset>
+        <legend><strong>Tickets Form</strong></legend>
+        <mat-form-field>
+            <mat-label>Theater</mat-label>
+            <mat-select id="theater" formControlName="theater" (selectionChange)="onTheaterChange($event.value)">
+                <mat-option *ngFor="let theater of data.theaters" [value]="theater.name">
+                    {{ theater.name }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Show Time</mat-label>
+            <mat-select id="showTime" formControlName="showTime" (selectionChange)="onShowTimeChange($event.value)">
+                <mat-option *ngFor="let showtime of showTimes" [value]="showtime.time">
+                    {{showtime.time}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </fieldset>
+    <fieldset>
+        <mat-form-field>
+            <mat-label>Adult tickets</mat-label>
+            <mat-select id="adultSeats" formControlName="adultSeats" (selectionChange)="adultSeatsSelected($event.value)">
+                <mat-option *ngFor="let number of numberOfSeats()" [value]="number">
+                    {{number}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Child tickets</mat-label>
+            <mat-select id="childSeats" formControlName="childSeats">
+                <mat-option *ngFor="let number of numberOfChildSeats()" [value]="number">
+                    {{number}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Personal Information</strong></legend>
+
+          <mat-form-field appearance="fill">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstName">
+            <mat-error *ngIf="ticketForm.get('firstName')!.hasError('required')">
+                This field is required.
+              </mat-error>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastName">
+            <mat-error *ngIf="ticketForm.get('lastName')!.hasError('required')">
+                This field is required.
+              </mat-error>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" formControlName="email">
+            <mat-error *ngIf="ticketForm.get('email')!.hasError('required')">
+                This field is required.
+              </mat-error>
+              <mat-error *ngIf="ticketForm.get('email')!.hasError('email')">
+                Please enter a valid email address.
+              </mat-error>
+          </mat-form-field>
+    </fieldset>
+
+    <legend><span>Tickets Available: {{seatsAvailable}}</span></legend>
+    <hr>
+  <button mat-raised-button color="primary" type="submit" [disabled]='!ticketForm.valid'>Submit</button>
+</form>

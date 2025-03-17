@@ -1,0 +1,20 @@
+<div class="ticket-container">
+  @for (booking of myBookings; track $index) {
+  <div class="ticket-receipt">
+    <h2>Your Ticket Receipt Confirmation</h2>
+    <p><strong>Movie:</strong> <span class="highlight">{{ booking.title }}</span></p>
+    <p><strong>Theater:</strong> {{ booking.theater }}</p>
+    <p><strong>Show Time:</strong> {{ booking.showTime }}</p>
+    <p><strong>Adult Tickets:</strong> {{ booking.adultSeats }}</p>
+    <p><strong>Child Tickets:</strong> {{ booking.childSeats }}</p>
+    <p><strong>First Name:</strong> {{ booking.firstName }}</p>
+    <p><strong>Last Name:</strong> {{ booking.lastName }}</p>
+    <p><strong>Email:</strong> {{ booking.email }}</p>
+    <p><strong>Total Cost:</strong> {{ booking.totalCost }} CAD</p>
+  </div>
+  }
+</div>
+<div *ngIf="myBookings.length === 0" class="no-bookings-message">
+  <h2>You have not booked any movies yet.</h2>
+  <p>Please go back to the Home page to make a reservation.</p>
+</div>

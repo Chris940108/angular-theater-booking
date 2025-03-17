@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/https://marti295.dev.fast.sheridanc.on.ca/assign_4": {},
+    "/https://marti295.dev.fast.sheridanc.on.ca/assign_4/booking": {},
+    "/https://marti295.dev.fast.sheridanc.on.ca/assign_4/confirmation": {},
+    "/https://marti295.dev.fast.sheridanc.on.ca/assign_4/contact": {},
+    "/https://marti295.dev.fast.sheridanc.on.ca/assign_4/home": {},
+    "/https://marti295.dev.fast.sheridanc.on.ca/assign_4/my-booking": {}
+  }
+}
