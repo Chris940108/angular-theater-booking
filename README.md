@@ -1,4 +1,14 @@
-# Assignment4
+# Movie Theater Booking system
+
+This app allows you to book a movie in the theater of your election, with different options of locations, times, and seats available, gives you a confirmation of your booking, and let you track all your bookings.
+
+## 📸 Screenshots
+![Web Site Interface](./screenshots/tickets_booking.png)
+![Tickets Selection](./screenshots/tickets_selection.png)
+![Booking Confirmation](./screenshots/confirmation.png)
+![My Bookings](./screenshots/my_bookings.png)
+
+#
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
 
